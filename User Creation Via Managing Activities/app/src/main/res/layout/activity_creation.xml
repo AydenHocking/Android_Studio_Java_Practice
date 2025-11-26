@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Assignment 3
+Ayden Hocking
+activity_creation.xml
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreationActivity">
+
+    <TextView
+        android:id="@+id/textViewNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/nameLabel"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCreateTitle" />
+
+    <TextView
+        android:id="@+id/textViewEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/emailLabel"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewNameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameLabel" />
+
+    <TextView
+        android:id="@+id/textViewRoleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/roleLabel"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewEmailLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmailLabel" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/editTextEmailHint"
+        android:inputType="textEmailAddress"
+        android:maxLength="30"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewEmailLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextName"
+        app:layout_constraintTop_toTopOf="@+id/textViewEmailLabel" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/editTextNameHint"
+        android:inputType="text"
+        android:maxLength="30"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewNameLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewNameLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewNameLabel" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/buttonNextLabel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toTopOf="@+id/textViewRoleLabel">
+
+        <RadioButton
+            android:id="@+id/radioButtonStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="Student"
+            android:text="@string/radiobuttonStudent" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="Employee"
+            android:text="@string/radiobuttonEmployee" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="Other"
+            android:text="@string/radiobuttonOther" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewCreateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/titleCreateUser"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

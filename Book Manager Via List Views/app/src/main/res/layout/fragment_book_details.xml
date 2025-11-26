@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookDetailsFragment">
+
+    <TextView
+        android:id="@+id/textViewBookDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Book Details"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Title:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBookDetails" />
+
+    <TextView
+        android:id="@+id/textViewAuthorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Author:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewTitleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleLabel" />
+
+    <TextView
+        android:id="@+id/textViewGenreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Genre:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewAuthorLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAuthorLabel" />
+
+    <TextView
+        android:id="@+id/textViewYearLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Year:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewGenreLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGenreLabel" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTitleLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewTitleLabel" />
+
+    <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAuthorLabel"
+        app:layout_constraintEnd_toEndOf="@+id/textViewTitle"
+        app:layout_constraintTop_toTopOf="@+id/textViewAuthorLabel" />
+
+    <TextView
+        android:id="@+id/textViewGenreDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewGenreLabel"
+        app:layout_constraintEnd_toEndOf="@+id/textViewAuthor"
+        app:layout_constraintTop_toTopOf="@+id/textViewGenreLabel" />
+
+    <TextView
+        android:id="@+id/textViewYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewYearLabel"
+        app:layout_constraintEnd_toEndOf="@+id/textViewGenreDetail"
+        app:layout_constraintTop_toTopOf="@+id/textViewYearLabel" />
+
+    <Button
+        android:id="@+id/buttonBackDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYearLabel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

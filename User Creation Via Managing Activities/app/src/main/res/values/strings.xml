@@ -1,0 +1,30 @@
+
+<!--
+Assignment 3
+Ayden Hocking
+strings.xml
+-->
+<resources>
+    <string name="app_name">UserCreationManagingActivities</string>
+    <string name="welcomeLabel">Welcome !!</string>
+    <string name="startButton">Start</string>
+    <string name="nameLabel">Name:</string>
+    <string name="emailLabel">Email:</string>
+    <string name="roleLabel">Role:</string>
+    <string name="buttonNextLabel">Next</string>
+    <string name="buttonUpdateLabel">Update</string>
+    <string name="radiobuttonStudent">Student</string>
+    <string name="radiobuttonEmployee">Employee</string>
+    <string name="radiobuttonOther">Other</string>
+    <string name="editTextNameHint">Enter Name</string>
+    <string name="editTextEmailHint">Enter Email</string>
+    <string name="textViewProfileRole" />
+    <string name="textViewProfileEmail" />
+    <string name="textViewProfileName" />
+    <string name="titleCreateUser">Create User Info</string>
+    <string name="titleProfile">Profile</string>
+    <string name="titleEditUser">Edit User Info</string>
+    <string name="buttonSubmitLabel">Submit</string>
+    <string name="buttonCancelLabel">Cancel</string>
+
+</resources>

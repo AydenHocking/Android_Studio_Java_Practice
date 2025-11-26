@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment09</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clear_all">Clear All</string>
+    <string name="add_new">Add New</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="name_label">Name:</string>
+    <string name="age_group_label">Age Group:</string>
+    <string name="na_label">N/A</string>
+    <string name="feeling_label">Feeling:</string>
+    <string name="submit_label">Submit</string>
+    <string name="age_label">Age</string>
+    <string name="mood_label">Mood</string>
+    <string name="select_age_group_label">Select user\'s age group:</string>
+    <string name="select_mood_label">Select user\'s mood from list below:</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="back_label">Back</string>
+</resources>

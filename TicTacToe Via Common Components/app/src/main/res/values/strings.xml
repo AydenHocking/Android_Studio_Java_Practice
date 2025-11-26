@@ -1,0 +1,11 @@
+<!--
+Ayden Hocking
+Assignment 2
+strings.xml
+-->
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="textViewTitle">TicTacToe</string>
+    <string name="textViewPlayer">Player One\'s Turn</string>
+    <string name="buttonReset">Reset</string>
+</resources>

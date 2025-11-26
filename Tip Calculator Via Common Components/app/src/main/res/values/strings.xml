@@ -1,0 +1,19 @@
+<!--Ayden Hocking-->
+<!--Assignment1-->
+<!--strings.xml-->
+<resources>
+    <string name="app_name">Tip_Calculator</string>
+    <string name="bill_price_label">Bill Price:</string>
+    <string name="tip_percent_label">Tip %:</string>
+    <string name="tip_price_label">Tip Price:</string>
+    <string name="tip_percent"></string>
+    <string name="tip_price"></string>
+    <string name="tip_10_btn">10% Tip</string>
+    <string name="tip_15_btn">15% Tip</string>
+    <string name="tip_18_btn">18% Tip</string>
+    <string name="tip_clear_btn">Clear</string>
+    <string name="TipPriceInput" />
+    <string name="total_bill_label"> Total Bill:</string>
+    <string name="total_bill"></string>
+    <string name="bill_price_hint">Enter Bill Amount:</string>
+</resources>

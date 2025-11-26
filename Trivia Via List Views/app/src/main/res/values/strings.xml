@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textViewQuestionNumber">Question 0 of 6</string>
+    <string name="textViewQuestion">Question Here</string>
+    <string name="textViewResponse">Response Here</string>
+</resources>

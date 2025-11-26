@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Evaluation1</string>
+    <string name="eval_title">Random Generator</string>
+    <string name="generated_num">Generated: 12</string>
+    <string name="number_picking">Picking from 1 to 7</string>
+    <string name="reset">Reset</string>
+    <string name="go">Go</string>
+</resources>
